@@ -20,7 +20,7 @@ while flag0 == False:
 
 head = input("Heading> ")
 while flag1 == False:
-    heading = input("Heading Type> ")
+    heading = input("Heading Type (h1 - h6)> ")
     if heading in ["h1", "h2", "h3", "h4", "h5", "h6"]:
         headtype = heading
         flag1 = True
@@ -40,5 +40,6 @@ finalcode = f"""<!DOCTYPE html>
     {script}
 </script>
 </html>"""
+
 
 print(finalcode)
